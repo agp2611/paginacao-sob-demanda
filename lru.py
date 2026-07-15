@@ -25,5 +25,5 @@ def executarLru(quadros : int, referencia : list):
             f.write(f"{str(memoria)}\n")
             f.write(f"Faltas atuais: {faltas}\n")
             f.write("--------------------------------\n")
-    f.close
+
     return faltas
