@@ -4,15 +4,13 @@ def executarFifo(quadros : int, referencia : list):
     
 
     for pagina in referencia:
-        if (len(memoria) == quadros) :
-            if(pagina not in memoria):
-                faltas += 1
+        if (pagina not in memoria):
+            faltas += 1
+            
+            if(len(memoria) == quadros):
                 memoria.pop(0)
-                memoria.append(pagina)
-                    
-        else:
-            faltas +=1
             memoria.append(pagina)
+            
             
     return faltas
 
@@ -23,21 +21,18 @@ def executarLru(quadros : int, referencia : list):
     
 
     for paginaRef in referencia:
-        if (len(memoria) == quadros):
-            if (paginaRef in memoria):
-                for paginaMem in memoria:
-                    if paginaMem == paginaRef:
-                        memoria.remove(paginaMem)
-                        memoria.append(paginaMem)
-                        break
-            else:
-                faltas += 1
-                memoria.pop(0)
-                memoria.append(paginaRef)
-        else:
-            faltas +=1
+        if(paginaRef in memoria):
+            memoria.remove(paginaRef)
             memoria.append(paginaRef)
-
+            
+        else:
+            faltas += 1
+            
+            if(len(memoria) == quadros):
+                memoria.pop(0)
+                
+            memoria.append(paginaRef)
+            
     return faltas
 
 
