@@ -5,12 +5,12 @@ def executarLru(quadros : int, referencia : list):
     with open("logLRU.txt", "w") as f:
         for paginaRef in referencia:
             if (paginaRef in memoria):
-                f.write(f"JA ESTA NA MEMORIA")
+                f.write(f"JA ESTA NA MEMORIA\n")
                 memoria.remove(paginaRef)
                 memoria.append(paginaRef)
             
             else:
-                f.write("NAO ESTA NA MEMORIA")
+                f.write("NAO ESTA NA MEMORIA\n")
                 faltas += 1
                 
                 if (len(memoria) == quadros):

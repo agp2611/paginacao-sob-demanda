@@ -5,9 +5,9 @@ def executarFifo(quadros : int, referencia : list):
     with open("logFIFO.txt", "w") as f:
         for pagina in referencia:
             if (pagina in memoria):
-                f.write("JA ESTA NA MEMORIA")
+                f.write("JA ESTA NA MEMORIA\n")
             else:
-                f.write("NAO ESTA NA MEMORIA")
+                f.write("NAO ESTA NA MEMORIA\n")
                 faltas += 1
                 
                 if(len(memoria) == quadros):
