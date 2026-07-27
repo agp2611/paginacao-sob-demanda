@@ -9,62 +9,42 @@ pagina: 2
 Faltas atuais: 2
 --------------------------------
 NAO ESTA NA MEMORIA
-pagina: 5
-[1, 2, 5]
-Faltas atuais: 3
---------------------------------
-JA ESTA NA MEMORIA
-pagina: 2
-[1, 5, 2]
-Faltas atuais: 3
---------------------------------
-NAO ESTA NA MEMORIA
 pagina: 3
-[5, 2, 3]
-Faltas atuais: 4
+[1, 2, 3]
+Faltas atuais: 3
 --------------------------------
 NAO ESTA NA MEMORIA
 pagina: 4
 [2, 3, 4]
+Faltas atuais: 4
+--------------------------------
+JA ESTA NA MEMORIA
+pagina: 2
+[3, 4, 2]
+Faltas atuais: 4
+--------------------------------
+NAO ESTA NA MEMORIA
+pagina: 1
+[4, 2, 1]
 Faltas atuais: 5
 --------------------------------
 NAO ESTA NA MEMORIA
-pagina: 7
-[3, 4, 7]
+pagina: 5
+[2, 1, 5]
+Faltas atuais: 6
+--------------------------------
+JA ESTA NA MEMORIA
+pagina: 1
+[2, 5, 1]
+Faltas atuais: 6
+--------------------------------
+JA ESTA NA MEMORIA
+pagina: 2
+[5, 1, 2]
 Faltas atuais: 6
 --------------------------------
 NAO ESTA NA MEMORIA
-pagina: 2
-[4, 7, 2]
-Faltas atuais: 7
---------------------------------
-JA ESTA NA MEMORIA
-pagina: 7
-[4, 2, 7]
-Faltas atuais: 7
---------------------------------
-JA ESTA NA MEMORIA
-pagina: 4
-[2, 7, 4]
-Faltas atuais: 7
---------------------------------
-NAO ESTA NA MEMORIA
-pagina: 5
-[7, 4, 5]
-Faltas atuais: 8
---------------------------------
-NAO ESTA NA MEMORIA
 pagina: 3
-[4, 5, 3]
-Faltas atuais: 9
---------------------------------
-JA ESTA NA MEMORIA
-pagina: 5
-[4, 3, 5]
-Faltas atuais: 9
---------------------------------
-NAO ESTA NA MEMORIA
-pagina: 2
-[3, 5, 2]
-Faltas atuais: 10
+[1, 2, 3]
+Faltas atuais: 7
 --------------------------------
