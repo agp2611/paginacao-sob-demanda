@@ -1,0 +1,60 @@
+NAO ESTA NA MEMORIA
+pagina: 1
+[1]
+Faltas atuais: 1
+--------------------------------
+NAO ESTA NA MEMORIA
+pagina: 2
+[1, 2]
+Faltas atuais: 2
+--------------------------------
+NAO ESTA NA MEMORIA
+pagina: 3
+[1, 2, 3]
+Faltas atuais: 3
+--------------------------------
+NAO ESTA NA MEMORIA
+pagina: 4
+[1, 2, 3, 4]
+Faltas atuais: 4
+--------------------------------
+JA ESTA NA MEMORIA
+pagina: 1
+[2, 3, 4, 1]
+Faltas atuais: 4
+--------------------------------
+JA ESTA NA MEMORIA
+pagina: 2
+[3, 4, 1, 2]
+Faltas atuais: 4
+--------------------------------
+NAO ESTA NA MEMORIA
+pagina: 5
+[4, 1, 2, 5]
+Faltas atuais: 5
+--------------------------------
+JA ESTA NA MEMORIA
+pagina: 1
+[4, 2, 5, 1]
+Faltas atuais: 5
+--------------------------------
+JA ESTA NA MEMORIA
+pagina: 2
+[4, 5, 1, 2]
+Faltas atuais: 5
+--------------------------------
+NAO ESTA NA MEMORIA
+pagina: 3
+[5, 1, 2, 3]
+Faltas atuais: 6
+--------------------------------
+NAO ESTA NA MEMORIA
+pagina: 4
+[1, 2, 3, 4]
+Faltas atuais: 7
+--------------------------------
+NAO ESTA NA MEMORIA
+pagina: 5
+[2, 3, 4, 5]
+Faltas atuais: 8
+--------------------------------
