@@ -111,9 +111,9 @@ with open("entrada.txt", "r") as f:
             lReferencias.append(int(linha.strip()))
             
 faltasFifo = executarFifo(qQuadros, lReferencias)
-faltasLru = executarLru(qQuadros, lReferencias)
 faltasOtm = executarOtm(qQuadros, lReferencias)
+faltasLru = executarLru(qQuadros, lReferencias)
 
 print(f"FIFO {faltasFifo}")
-print(f"LRU {faltasLru}")
 print(f"OTM {faltasOtm}")
+print(f"LRU {faltasLru}")
